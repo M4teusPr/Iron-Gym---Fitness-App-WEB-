@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Gym - Fitness App</title>
+    <link rel="stylesheet" href="/css/Styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <span class="logo-icon">💪</span>
+                    <span class="logo-text">IRON GYM</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#features">Funcionalidades</a>
+                    <a href="#demo">Demo</a>
+                    <a href="#download">Download</a>
+                    <button class="btn-primary" onclick="scrollToDemo()">Ver Demo</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Transforme Seu Corpo com
+                        <span class="gradient-text">Iron Gym</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        O app completo para acompanhamento de treinos, evolução e conquistas. 
+                        Registre exercícios, acompanhe progresso e compartilhe com sua comunidade.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn-large" onclick="scrollToDemo()">📱 Ver Demonstração</button>
+                        <button class="btn-outline">⚡ Recursos</button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">10k+</span>
+                            <span class="stat-label">Usuários</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50k+</span>
+                            <span class="stat-label">Treinos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">4.8⭐</span>
+                            <span class="stat-label">Avaliação</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="floating-card card-1">
+                        <div class="card-icon">🏋️</div>
+                        <div class="card-text">
+                            <div class="card-title">Supino Reto</div>
+                            <div class="card-subtitle">4x12 - 80kg</div>
+                        </div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <div class="card-icon">📊</div>
+                        <div class="card-text">
+                            <div class="card-title">Progresso</div>
+                            <div class="card-subtitle">+15% este mês</div>
+                        </div>
+                    </div>
+                    <div class="floating-card card-3">
+                        <div class="card-icon">🔥</div>
+                        <div class="card-text">
+                            <div class="card-title">Sequência</div>
+                            <div class="card-subtitle">12 dias</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Funcionalidades Poderosas</h2>
+            <p class="section-subtitle">Tudo que você precisa para alcançar seus objetivos</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <img src="/imagens/registo-medico.png" alt="Registro de Treinos" width="50px" height="50px"/>
+                    <h3>Registro de Treinos</h3>
+                    <p>Registre exercícios, séries, repetições e carga de forma rápida e intuitiva</p>
+                </div>
+                <div class="feature-card">
+                     <img src="/imagens/public-library.png" alt="Biblioteca de Exercícios" width="50px" height="50px"/>
+                    <h3>Biblioteca de Exercícios</h3>
+                    <p>Acesso a centenas de exercícios com instruções detalhadas e grupos musculares</p>
+                </div>
+                <div class="feature-card">
+                     <img src="/imagens/grafico.png" alt="Gráficos de Evolução" width="50px" height="50px"/>
+                    <h3>Gráficos de Evolução</h3>
+                    <p>Acompanhe seu progresso com gráficos visuais e métricas detalhadas</p>
+                </div>
+                <div class="feature-card">
+                     <img src="/imagens/calendario.png" alt="Calendário de Treinos" width="50px" height="50px"/>
+                    <h3>Calendário de Treinos</h3>
+                    <p>Visualize seu histórico e planeje seus treinos futuros</p>
+                </div>
+                <div class="feature-card">
+                    <img src="/imagens/relogio.png" alt="Timer Integrado" width="50px" height="50px"/>
+                    <h3>Timer Integrado</h3>
+                    <p>Cronômetro para descanso entre séries e controle de tempo</p>
+                </div>
+                <div class="feature-card">
+                    <img src="/imagens/ia-etica.png" alt="Sugestões com IA" width="50px" height="50px"/>
+                    <h3>Sugestões com IA</h3>
+                    <p>Receba planos de treino personalizados baseados em seus objetivos</p>
+                </div>
+                <div class="feature-card">
+                    <img src="/imagens/alcance-social.png" alt="Rede Social" width="50px" height="50px"/>
+                    <h3>Rede Social</h3>
+                    <p>Compartilhe seus treinos e conquistas com a comunidade</p>
+                </div>
+                <div class="feature-card">
+                    <img src="/imagens/aprendizagem-nao-supervisionada.png" alt="Supervisão" width="50px" height="50px"/>
+                    <h3>Supervisão</h3>
+                    <p>Sistema de códigos de acesso para monitoramento de alunos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="demo-section">
+        <div class="container">
+            <h2 class="section-title">Veja o App em Ação</h2>
+            <p class="section-subtitle">Navegue pelas telas e explore as funcionalidades</p>
+            
+            <div class="demo-container">
+                <!-- Mobile Device Mockup -->
+                <div class="device-mockup">
+                    <div class="device-frame">
+                        <div class="device-notch"></div>
+                        <div class="device-screen" id="deviceScreen">
+                            <!-- Screens will be injected here by JavaScript -->
+                        </div>
+                        <div class="device-home-button"></div>
+                    </div>
+                </div>
+
+                <!-- Screen Navigation -->
+                <div class="screen-navigation">
+                    <h3>Navegação</h3>
+                    <div class="screen-buttons">
+                        <button class="screen-btn active" data-screen="welcome">Bem-vindo</button>
+                        <button class="screen-btn" data-screen="login">Login</button>
+                        <button class="screen-btn" data-screen="home">Home</button>
+                        <button class="screen-btn" data-screen="workout">Treinos</button>
+                        <button class="screen-btn" data-screen="exercises">Exercícios</button>
+                        <button class="screen-btn" data-screen="profile">Perfil</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download-section">
+        <div class="container">
+            <div class="download-content">
+                <h2 class="section-title">Pronto para começar?</h2>
+                <p class="section-subtitle">Baixe agora e transforme seu treino</p>
+                <div class="download-buttons">
+                    <button class="download-btn ios">
+                                                <img class="download-icon" src="/imagens/apple-big-logo.png" alt="Apple Store" width="50px" height="50px"/>
+
+                        <div>
+                            <div class="download-label">Download na</div>
+                            <div class="download-store">App Store</div>
+                        </div>
+                    </button>
+                    <button class="download-btn android">
+                        <img class="download-icon" src="/imagens/android.png" alt="Google Play" width="50px" height="50px"/>
+                        <div>
+                            <div class="download-label">Disponível no</div>
+                            <div class="download-store">Google Play</div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">💪</span>
+                        <span class="logo-text">IRON GYM</span>
+                    </div>
+                    <p>Transforme seu corpo, mude sua vida.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Produto</h4>
+                        <a href="#features">Funcionalidades</a>
+                        <a href="#demo">Demo</a>
+                        <a href="#download">Download</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Suporte</h4>
+                        <a href="#">Ajuda</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">Contato</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <a href="#">Privacidade</a>
+                        <a href="#">Termos</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Iron Gym. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/screens.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
